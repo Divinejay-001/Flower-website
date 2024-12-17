@@ -14,30 +14,29 @@ const Banner2 = () => {
             <div className='flex flex-col justify-center' >
                 <div className='text-center md:text-left space-y-4
                lg:max-w-[400px] '>
-                    <motion.h1 
-                    
-                    variants={FadeUp(0.5)}
-                    initial= 'hidden'
-                    whileInView={'visible'}
-                    viewport={{ once: true}}
-                    className='text-3xl lg:text-6xl font-bold 
-                    uppercase'>Online flower store
-                    </motion.h1>
-                    <motion.p
-                   variants={FadeUp(0.7)}
-                    initial= 'hidden'
-                    whileInView={'visible'}
-                    viewport={{ once: true}}
-                    >Lorem ipsum dolor sit amet consectetur 
-                    adipisicing elit. Aut dolore velit explicabo cum
-                    perspiciatis? Eveniet voluptatem enim ea quibusdam illum earum eaque, architecto iusto voluptate placeat ex asperiores, suscipit perferendis?</motion.p>
-              <motion.p
-              variants={FadeUp(0.9)}
-              initial= 'hidden'
-              whileInView={'visible'}
-              viewport={{ once: true}}
-              >Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores neque quas
-                 atque architecto, eum praesentium illum, ad facere, dicta deleniti sunt amet similique! Voluptate assumenda qui minima alias! Dolor, enim.</motion.p>
+                  <motion.h1 
+  variants={FadeUp(0.5)}
+  initial='hidden'
+  whileInView='visible'
+  viewport={{ once: true }}
+  className='text-3xl lg:text-6xl font-bold uppercase'>
+  Online Flower Store
+</motion.h1>
+<motion.p
+  variants={FadeUp(0.7)}
+  initial='hidden'
+  whileInView='visible'
+  viewport={{ once: true }}>
+  Discover the perfect blooms for every occasion at Petal Paradise, your premier online flower store. We specialize in delivering handpicked, fresh, and beautifully arranged flowers right to your doorstep, ensuring each moment is as special as the next.
+</motion.p>
+<motion.p
+  variants={FadeUp(0.9)}
+  initial='hidden'
+  whileInView='visible'
+  viewport={{ once: true }}>
+  Whether you're celebrating a milestone, expressing your love, or brightening someone’s day, our curated collections and customizable arrangements are designed to leave lasting impressions. Experience seamless online shopping and on-time delivery with Petal Paradise today.
+</motion.p>
+
                {/* Button section */}
                 <motion.div
                          

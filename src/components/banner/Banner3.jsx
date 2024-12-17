@@ -29,24 +29,23 @@ const Banner3 = () => {
             <div className='flex flex-col justify-center font-averia' >
                 <div className='text-center md:text-left space-y-4
                lg:max-w-[400px] drop-shadow'>
-                    <motion.h1 
-                    
-                    variants={FadeLeft(0.5)}
-                    initial= 'hidden'
-                    whileInView={'visible'}
-                    viewport={{ once: true}}
-                    className='text-3xl text-white lg:text-6xl font-bold 
-                    uppercase'>Get Nice Flowers Today
-                    </motion.h1>
-                    <motion.p
-                   variants={FadeLeft(0.7)}
-                    initial= 'hidden'
-                    whileInView={'visible'}
-                    viewport={{ once: true}}
-                    className='text-white'>Lorem ipsum dolor sit amet consectetur 
-                    adipisicing elit. Aut dolore velit explicabo cum
-                    perspiciatis? Eveniet voluptatem enim ea quibusdam illum earum eaque, architecto iusto voluptate placeat ex asperiores, suscipit perferendis?</motion.p>
-            
+                   <motion.h1 
+  variants={FadeLeft(0.5)}
+  initial='hidden'
+  whileInView='visible'
+  viewport={{ once: true }}
+  className='text-3xl text-white lg:text-6xl font-bold uppercase'>
+  Get Nice Flowers Today
+</motion.h1>
+<motion.p
+  variants={FadeLeft(0.7)}
+  initial='hidden'
+  whileInView='visible'
+  viewport={{ once: true }}
+  className='text-white'>
+  Brighten your day with fresh, vibrant flowers delivered straight to your door. Whether it’s a special occasion or just because, our stunning arrangements are crafted to bring joy, elegance, and a touch of nature into your life.
+</motion.p>
+
                {/* Button section */}
                 <motion.div
                          

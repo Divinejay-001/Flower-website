@@ -20,30 +20,29 @@ space-y-6 md:space-y-0 py-4'>
         <div className='flex flex-col justify-center' >
             <div className='text-center md:text-left space-y-4
            lg:max-w-[400px] drop-shadow'>
-                <motion.h1 
-                
-                variants={FadeUp(0.5)}
-                initial= 'hidden'
-                whileInView={'visible'}
-                viewport={{ once: true}}
-                className='text-3xl lg:text-6xl font-bold 
-                uppercase'>Brand Info
-                </motion.h1>
-                <motion.p
-               variants={FadeUp(0.7)}
-                initial= 'hidden'
-                whileInView={'visible'}
-                viewport={{ once: true}}
-                >Lorem ipsum dolor sit amet consectetur 
-                adipisicing elit. Aut dolore velit explicabo cum
-                perspiciatis? Eveniet voluptatem enim ea quibusdam illum earum eaque, architecto iusto voluptate placeat ex asperiores, suscipit perferendis?</motion.p>
-          <motion.p
-          variants={FadeUp(0.9)}
-          initial= 'hidden'
-          whileInView={'visible'}
-          viewport={{ once: true}}
-          >Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores neque quas
-             atque architecto, eum praesentium illum, ad facere, dicta deleniti sunt amet similique! Voluptate assumenda qui minima alias! Dolor, enim.</motion.p>
+             <motion.h1 
+  variants={FadeUp(0.5)}
+  initial='hidden'
+  whileInView='visible'
+  viewport={{ once: true }}
+  className='text-3xl lg:text-6xl font-bold uppercase'>
+  Brand Info
+</motion.h1>
+<motion.p
+  variants={FadeUp(0.7)}
+  initial='hidden'
+  whileInView='visible'
+  viewport={{ once: true }}>
+  Welcome to Blossom Haven, your one-stop destination for stunning floral arrangements that add beauty and joy to every occasion. Our commitment to freshness and creativity ensures every bouquet tells a story of elegance and love.
+</motion.p>
+<motion.p
+  variants={FadeUp(0.9)}
+  initial='hidden'
+  whileInView='visible'
+  viewport={{ once: true }}>
+  From vibrant seasonal blooms to timeless classics, we take pride in handcrafting each piece to suit your needs. Whether it’s a celebration, a heartfelt gift, or simply brightening up your space, Blossom Haven is here to make your moments unforgettable.
+</motion.p>
+
            {/* Button section */}
             <motion.div
                      
