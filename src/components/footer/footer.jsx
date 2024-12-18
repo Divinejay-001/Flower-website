@@ -21,10 +21,18 @@ const Footer = () => {
 
     {/* Social Section */}
     <div className='text-3xl flex items-center gap-4 text-gray-700'>
-      <FaInstagram />
-      <FaTwitter />
-      <FaFacebook />
-      <FaGithub />
+    <a href="https://instagram.com/divinegiftchidalu" target="_blank" rel="noopener noreferrer">
+        <FaInstagram />
+      </a>
+      <a href="https://twitter.com/Divinegift9503" target="_blank" rel="noopener noreferrer">
+        <FaTwitter />
+      </a>
+      <a href="https://www.facebook.com/DivinegiftJohnson" target="_blank" rel="noopener noreferrer">
+        <FaFacebook />
+      </a>
+      <a href="https://github.com/Divinejay-001" target="_blank" rel="noopener noreferrer">
+        <FaGithub />
+      </a>
     </div>
   </motion.div>
 </footer>

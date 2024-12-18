@@ -63,7 +63,7 @@ className='container flex justify-between items-center bg-primary/40 fixed md:re
     </ul>
 </div>
             {/*Mobile Hamburger Menu section */}
-            <div className='md:hidden' onClick={()=>setOpen(!open)}>
+            <div className='md:hidden'  onClick={()=>setOpen(!open)}>
                 <MdMenu className='text-4xl text-primary hover:text-primary'/>
             </div>
 
