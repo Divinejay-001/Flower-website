@@ -43,8 +43,8 @@ animate= {{ opacity: 1}}
 transition={{ duration:0.5, delay:0.5 }}
 className='container flex justify-between items-center bg-primary/40 fixed md:relative z-20 py-4 md:pt-4'>
 <div className='text-2xl flex items-center gap-2 font-bold uppercase'>
-    <p className='text-primary font-extrabold'>Flower</p>
-    <p className='text-secondary'>Store</p>
+    <p className='text-primary font-extrabold'>Blossom</p>
+    <p className='text-secondary'>Haven</p>
     {/* <FaLeaf /> */}
     <GiRose className='text-primary text-3xl'/>
 </div>
