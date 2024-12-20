@@ -14,8 +14,8 @@ const Footer = () => {
   >
     {/* Logo Section */}
     <div className='text-2xl flex items-center gap-2 font-bold uppercase'>
-      <p className='text-primary'>Flower</p>
-      <p className='text-secondary'>Store</p>
+      <p className='text-primary'>Blossom</p>
+      <p className='text-secondary'>Haven</p>
       <GiRose className='text-primary text-3xl' />
     </div>
 
